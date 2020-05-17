@@ -151,3 +151,8 @@ footer{
     text-align: center;
     padding: 20px;
 }
+
+p::selection{
+    background: #0956b9;
+    color: white;
+}

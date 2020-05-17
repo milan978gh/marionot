@@ -24,11 +24,11 @@ body{
 @keyframes ring{
     0%{
         transform: rotate(0deg);
-        box-shadow: 1px 5px 2px greenyellow;
+        box-shadow: 1px 5px 2px #d7ecf8;
     }
     50%{
         transform: rotate(180deg);
-        box-shadow: 1px 5px 2px orangered;
+        box-shadow: 1px 5px 2px aqua;
     }
     100%{
         transform: rotate(360deg);
@@ -49,7 +49,7 @@ body{
 
 /* text 'loading' anima*/
 span{
-    color: red;
+    color: #d7ecf8;
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 200px;
