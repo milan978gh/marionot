@@ -118,6 +118,12 @@ article p{
 
 .images li img{
     max-width: 100%;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .3);
+    transition: .3s ease-out;
+}
+
+.images li img:hover{
+    box-shadow: 0 1px 35px 0 rgba(0, 0, 0, 1);
 }
 
 section.join{
