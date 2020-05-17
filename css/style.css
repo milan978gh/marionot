@@ -78,6 +78,10 @@ nav li a{
     color: #0956b9;
 }
 
+nav li a:hover{
+    text-decoration: underline double;
+}
+
 nav li a.join{
     color: #035e03;
 }
